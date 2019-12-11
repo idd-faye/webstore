@@ -1,0 +1,386 @@
+@font-face {
+    font-family: 'savoyeletplain';
+    src: url("../font/savoyeletplain.ttf")
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url("../font/Helvetica.ttf")
+}
+
+@font-face {
+    font-family: 'PingFang';
+    src: url("../font/PingFang.otf")
+}
+
+body {
+    font-family: "Helvetica"
+}
+
+a {
+    color: #000;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    height: 45px;
+    background: #7C6C3D;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 1028px;
+}
+
+.brand {
+    font-family: "savoyeletplain";
+    font-size: 25px;
+    color: #fff;
+    line-height: 45px;
+}
+
+header {
+    border-bottom: 2px solid #F2F2F2;
+}
+
+header nav {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+    position: relative;
+}
+
+.bg {
+    width: 100%;
+    ;
+    height: 51px;
+    background: #FCFCFC;
+
+}
+
+header nav .wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.sub-nav {
+    position: absolute;
+}
+
+.sub-nav li a {
+    font-size: 14px;
+    line-height: 51px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.logo img {
+    width: 51px;
+    height: 51px;
+}
+
+header nav ul {
+    display: flex;
+    line-height: 43px;
+}
+
+header nav li {
+    padding-right: 44px;
+}
+
+header nav li:last-of-type {
+    padding: 0;
+}
+
+header nav a {
+    color: #000;
+    display: block;
+    padding: 13px 0 24px 0;
+    line-height: 51px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header nav>div>ul>.cur>a {
+    border-bottom: 2px solid #7C6C3D;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.location img {
+    margin: 0 auto;
+    display: block;
+}
+
+.location {
+    font-size: 10px;
+}
+
+.btn-login {
+    padding: 0 24px;
+    line-height: 36px;
+    background: #D25A00;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 36px;
+}
+
+
+
+
+
+
+
+.product {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.product form {
+    height: 150px;
+}
+
+.product>li {
+    margin-bottom: 60px;
+    width: 33.3333%;
+    padding: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "PingFang";
+}
+
+.product>li:last-of-type {
+    padding-right: 0;
+}
+
+.product>li h3 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 60px;
+}
+
+.product>li>div:first-child {
+    padding: 0 20px;
+    background: #F5F5F5;
+    position: relative;
+    height: 360px;
+}
+
+.product>li img {
+    margin: 0 auto;
+    max-height: 180px;
+}
+
+.product>li .fav {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.product>li>div p {
+    display: inline-block;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    max-height: 60px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.product>li .img {
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.product li fieldset {
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.item {
+    display: flex;
+    padding: 0 0 0 40px;
+    align-items: flex-end;
+    height: 50px;
+}
+
+.item>label {
+    font-size: 14px;
+    padding-right: 20px;
+    flex-basis: auto;
+    white-space: nowrap;
+
+}
+
+.item ul {
+    display: flex;
+    width: 100%;
+}
+
+.item li {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.item li label {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.suger {
+    position: relative;
+    padding-bottom: 5px;
+    justify-content: space-between
+}
+
+.suger>label {
+    color: #9f9f9f;
+}
+
+.suger-a {
+    padding-right: 30px;
+}
+
+.suger-a a {
+    margin-left: 12px;
+}
+
+.suger-p {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    padding-left: 40px;
+    font-size: 12px;
+    text-align: left !important;
+}
+
+.ratings ul {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.ratings li {
+    width: 36px;
+}
+
+.ratings img {
+    width: 24px;
+    display: block;
+}
+
+.product li p {
+    text-align: center;
+}
+
+.othersize {
+    flex-direction: column;
+    padding-right: 40px;
+    align-items: flex-start;
+}
+
+.othersize label {
+    color: #9a9a9a;
+}
+
+.othersize select {
+    border: none;
+    font-size: 12px;
+    border-bottom: 1px solid #b3b3b3;
+    width: 100%;
+}
+
+.othersize select option {
+    padding: 0;
+}
+
+.foam {
+    padding-right: 40px;
+}
+
+.foam select {
+    border: none;
+    font-size: 12px;
+    border-bottom: 1px solid #b3b3b3;
+    width: 100%;
+}
+
+.othersize select option {
+    padding: 0;
+}
+
+.add {
+    line-height: 27px;
+    background: #d25a00;
+    text-align: center;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 27px;
+}
+
+footer {
+    border-top: 1px solid #c9c9c9;
+    padding: 25px 0 100px;
+}
+
+footer>p>a {
+    margin-right: 15px;
+}
+
+footer a img {
+    max-width: 30px;
+    ;
+}
+
+footer nav ul {
+    padding: 30px 0;
+    display: flex;
+}
+
+footer nav a {
+    padding: 0 10px;
+    font-size: 12px;
+    color: #8d8d8d;
+    border-right: 1px solid #8d8d8d;
+}
+
+footer nav li:last-of-type a {
+    border: none;
+}
+
+.copyright {
+    color: #cdcdcd;
+    font-size: 13px;
+    line-height: 24px;
+}
